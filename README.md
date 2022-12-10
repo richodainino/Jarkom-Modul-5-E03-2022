@@ -279,9 +279,11 @@ iface eth0 inet dhcp
   Dengan menginstall speedtest-cli lakukan `speedtest-cli --simple` pada Server WISE untuk pengecekan firewall
 
   Sebelum dilakukan Firewall blocking
+  
   ![image](https://user-images.githubusercontent.com/33245436/206871904-e2b6ce5a-b58a-4c6f-ba36-0558eb8030dd.png)
 
   Sesudah dilakukan Firewall Blocking
+  
   ![image](https://user-images.githubusercontent.com/33245436/206871946-91dff854-2782-436f-8a83-61b01d400b82.png)
 
 3. Loid meminta kalian untuk membatasi DHCP dan DNS Server hanya boleh menerima maksimal 2 koneksi ICMP secara bersamaan menggunakan iptables, selebihnya didrop.
